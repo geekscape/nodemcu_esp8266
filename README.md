@@ -1,4 +1,4 @@
-# ESP8266 NodeMCU Examples
+# ESP8266 NodeMCU Workshops: Examples, framework and applications
 
 ## Table of contents
 
