@@ -7,9 +7,7 @@ function module.start()
   print("IP address: " .. wifi.sta.getip())
 
 --socket = net.createConnection(net.UDP, 0)
---socket:connect(config.UDP_PORT, config.UDP_HOST)
-
---socket:close()
+--socket:connect(config.PORT, config.HOST)
 end
 
 return module

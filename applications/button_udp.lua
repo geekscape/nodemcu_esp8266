@@ -3,8 +3,8 @@
 -- Execute via the Skeleton framework
 --
 -- init.lua:   app = require("button_udp")
--- config.lua: module.UDP_HOST = UDP_SERVER_IP_ADDRESS
--- config.lua: module.UDP_PORT = 4000
+-- config.lua: module.HOST = UDP_SERVER_IP_ADDRESS
+-- config.lua: module.PORT = 4000
 
 local module = {}
 
@@ -38,7 +38,7 @@ function module.start()
   print("button_udp")
 
   socket = net.createConnection(net.UDP, 0)
-  socket:connect(config.UDP_PORT, config.UDP_HOST)
+  socket:connect(config.PORT, config.HOST)
 
   tmr.alarm(1, TIME_ALARM, 1, buttonHandler)
 end
