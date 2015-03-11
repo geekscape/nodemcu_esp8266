@@ -12,7 +12,6 @@ local function wifi_start(aps)
   for key,value in pairs(aps) do
     if config.SSID and config.SSID[key] then
 --    print("wifi AP: " .. key .. ": " .. value)
-      wifi.setmode(wifi.STATION);
       wifi.sta.config(key, config.SSID[key])
       wifi.sta.connect()
       config.SSID = nil  -- more secure and save memory
@@ -22,6 +21,7 @@ local function wifi_start(aps)
 end
 
 function module.start()
+  wifi.setmode(wifi.STATION);
   wifi.sta.getap(wifi_start)
 end
 
