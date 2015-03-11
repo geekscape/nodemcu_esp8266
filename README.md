@@ -19,8 +19,9 @@ first run at the
 [Connected Community HackerSpace (Melbourne)](http://hackmelbourne.org) on
 [Wednesday 2015-01-11](http://www.meetup.com/Connected-Community-HackerSpace-Melbourne/events/220681609/).
 
-The [Skeleton framework](#skeleton) for developing networked NodeMCU modules
-and [associated application examples](#applications)
+The [Skeleton framework](#skeleton-framework)
+for developing networked NodeMCU modules and associated
+[applications](#applications)
 are generally useful beyond the workshops.
 
 ## Workshops
@@ -35,7 +36,8 @@ Each workshop consists of preparation recommendations and a presentation.
 
 These simple [examples](examples) are used in [Workshop 1](workshop_1)
 to demonstrate basic NodeMCU functionality for attaching a button, LED
-or WS2812B RGB LEDs to an ESP8266.  These examples don't use the network.
+or WS2812B RGB LEDs to an ESP8266.
+These examples don't use the Wi-Fi network.
 
 ## Skeleton framework
 
@@ -45,14 +47,16 @@ applications.
 
 The Skeleton framework looks after setting up the Wi-Fi network in a location
 independent fashion and separates configuration from application code.
-The Skeleton framework also supports developing code first as source files,
-then using node.compile() for production (saving valuable heap memory).
+The Skeleton framework also supports developing code first as Lua source
+files, then using
+[node.compile()](https://github.com/nodemcu/nodemcu-firmware/wiki/nodemcu_api_en#nodecompile)
+for production (saving valuable heap memory).
 
 Use of the Skeleton framework is introduced in [Workshop 1](workshop_1).
 
 ## Applications
 
-The [applications](applications) are Lua modules that rely
+[Applications](applications) are Lua modules that rely
 on the Skeleton framework to look after configuration and Wi-Fi set-up.
 Each individual application can focus on the specific functionality
 without having to duplicate basic infrastructure over and over again.
