@@ -3,7 +3,7 @@
 BRIGHT     = 0.1
 ON         = BRIGHT * 255
 BUTTON_PIN = 3       -- GPIO0
-LED_PIN    = 4       -- GPIO1
+LED_PIN    = 4       -- GPIO2
 PIXELS     = 8
 TIME_ALARM = 25      -- 0.025 second, 40 Hz
 TIME_SLOW  = 500000  -- 0.500 second,  2 Hz
