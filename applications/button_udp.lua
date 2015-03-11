@@ -1,3 +1,5 @@
+-- Copyright (c) 2015 by Geekscape Pty. Ltd.  Licence LGPL V3.
+--
 -- Execute via the Skeleton framework
 --
 -- init.lua:   app = require("button_udp")

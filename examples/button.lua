@@ -1,3 +1,5 @@
+-- Copyright (c) 2015 by Geekscape Pty. Ltd.  Licence LGPL V3.
+
 PIN_BUTTON = 3   -- GPIO0
 TIME_ALARM = 25  -- 0.025 second, 40 Hz
 

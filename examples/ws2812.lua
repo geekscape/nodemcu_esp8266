@@ -1,3 +1,5 @@
+-- Copyright (c) 2015 by Geekscape Pty. Ltd.  Licence LGPL V3.
+--
 -- http://www.esp8266.com/viewtopic.php?f=21&t=1143
 
 BRIGHT     = 0.1

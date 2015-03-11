@@ -1,3 +1,5 @@
+-- Copyright (c) 2015 by Geekscape Pty. Ltd.  Licence LGPL V3.
+
 -- ESP-12 dev board RGB LED GPIOs
 RED_LED_PIN   = 8
 GREEN_LED_PIN = 6
