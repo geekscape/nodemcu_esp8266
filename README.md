@@ -2,8 +2,62 @@
 
 ## Table of contents
 
+* [Overview](#overview)
+* [Workshops](#workshops)
+* [Standalone examples](#standalone-examples)
+* [Skeleton framework](#skeleton-framework)
+* [Applications](#applications)
 * [ESP8266 NodeMCU Firmware](#esp8266-nodemcu-firmware)
 * [License](#license)
+
+## Overview
+
+This repository supports a series of
+[ESP8266](https://espressif.com/en/products/esp8266/)
+workshops focused on [NodeMCU](https://github.com/nodemcu/nodemcu-firmware),
+first run at the
+[Connected Community HackerSpace (Melbourne)](http://hackmelbourne.org) on
+[Wednesday 2015-01-15](http://www.meetup.com/Connected-Community-HackerSpace-Melbourne/events/220681609/).
+
+The [Skeleton framework](#skeleton) for developing networked NodeMCU modules
+and [associated application examples](#applications)
+are generally useful beyond the workshops.
+
+## Workshops
+
+Each workshop consists of preparation recommendations and a presentation.
+
+* [Workshop 1](workshop_1): Introduction to ESP8266 and NodeMCU
+* __FUTURE__ Workshop 2: ESP8266 NodeMCU applications
+* __FUTURE__ Workshop 3: ESP8266 native C applications
+
+## Standalone examples
+
+These simple [examples](examples) are used in [Workshop 1](workshop_1)
+to demonstrate basic NodeMCU functionality for attaching a button, LED
+or WS2812B RGB LEDs to an ESP8266.  These examples don't use the network.
+
+## Skeleton framework
+
+The [Skeleton framework](skeleton) is a small collection of Lua modules
+that provide a simple modular approach to developing NodeMCU ESP8266
+applications.
+
+The Skeleton framework looks after setting up the Wi-Fi network in a location
+independent fashion and separates configuration from application code.
+The Skeleton framework also supports developing code first as source files,
+then using node.compile() for production (saving valuable heap memory).
+
+Use of the Skeleton framework is introduced in [Workshop 1](workshop_1).
+
+## Applications
+
+The [applications](applications) are Lua modules that rely
+on the Skeleton framework to look after configuration and Wi-Fi set-up.
+Each individual application can focus on the specific functionality
+without having to duplicate basic infrastructure over and over again.
+
+Some of the applications are introduced in [Workshop 1](workshop_1).
 
 ## ESP8266 NodeMCU Firmware
 
