@@ -8,6 +8,7 @@
 * [Skeleton framework](#skeleton-framework)
 * [Applications](#applications)
 * [ESP8266 NodeMCU Firmware](#esp8266-nodemcu-firmware)
+* [ESPkit-01 hardware](#espkit-01-hardware)
 * [License](#license)
 
 ## Overview
@@ -78,6 +79,13 @@ Standard pre-built versions of the
 [NodeMCU firmware master branch](https://github.com/nodemcu/nodemcu-firmware)
 can be found over
 [here](https://github.com/nodemcu/nodemcu-firmware/tree/master/pre_build).
+
+## ESPkit-01 hardware
+
+Rather than hand-making a cable to connect your ESP-01 to a USB-serial adapter,
+[John Spencer's](https://twitter.com/mage0r)
+[ESPkit-01 circuit board](https://github.com/mage0r/ESPkit-01)
+is a useful time-saver.
 
 ## License
 
