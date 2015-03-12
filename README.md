@@ -18,7 +18,7 @@ This repository supports a series of
 workshops focused on [NodeMCU](https://github.com/nodemcu/nodemcu-firmware),
 first run at the
 [Connected Community HackerSpace (Melbourne)](http://hackmelbourne.org) on
-[Wednesday 2015-01-11](http://www.meetup.com/Connected-Community-HackerSpace-Melbourne/events/220681609/).
+[Wednesday 2015-03-11](http://www.meetup.com/Connected-Community-HackerSpace-Melbourne/events/220681609/).
 
 The [Skeleton framework](#skeleton-framework)
 for developing networked NodeMCU modules and associated
