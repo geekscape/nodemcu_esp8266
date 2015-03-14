@@ -9,7 +9,7 @@ outcome from the workshop.
 The workshop will start *promptly* at 7 pm and run till around 9:30 pm.
 
 During the workshop, feel free to follow the
-__[Workshop 1 presentation](esp8266_preparation_1.md)__ at your own pace.
+__[Workshop 1 presentation](esp8266_workshop_1.pdf)__ at your own pace.
 Lots of copy/paste instructions contained within !
 
 Hardware required
