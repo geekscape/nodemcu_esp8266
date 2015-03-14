@@ -11,6 +11,8 @@
 * [ESPkit-01 hardware](#espkit-01-hardware)
 * [License](#license)
 
+![Picture of ESP8266 modules](https://raw.githubusercontent.com/geekscape/nodemcu_esp8266/master/workshop_1/esp8266_modules.jpg)
+
 ## Overview
 
 This repository supports a series of
