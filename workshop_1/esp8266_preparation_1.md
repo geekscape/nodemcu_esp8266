@@ -8,6 +8,10 @@ outcome from the workshop.
 
 The workshop will start *promptly* at 7 pm and run till around 9:30 pm.
 
+During the workshop, feel free to follow the
+[Workshop 1 presentation](esp8266_preparation_1.md) at your own pace.
+Lots of copy/paste intructions contained within !
+
 Hardware required
 -----------------
 * Either an ESP-01 (2x GPIOs available) or an ESP-12 evaluation board
